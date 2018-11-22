@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'v' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly mapToRegistry name webpack-4-quickstart
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'webpack-4-quickstart',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'webpack-4-quickstart',
+7 silly mapToRegistry   name: 'webpack-4-quickstart',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/webpack-4-quickstart
+9 verbose request uri https://registry.npmjs.org/webpack-4-quickstart
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 3:04:45 PM
+12 verbose request id 5888c8b20de8cadc
+13 http request GET https://registry.npmjs.org/webpack-4-quickstart
+14 http 200 https://registry.npmjs.org/webpack-4-quickstart
+15 verbose headers { date: 'Thu, 22 Nov 2018 09:34:44 GMT',
+15 verbose headers   'content-type': 'application/json; charset=UTF-8',
+15 verbose headers   'transfer-encoding': 'chunked',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'set-cookie': [ '__cfduid=dd9cf3e3859f9ac3caee25b6fc6fd97191542879284; expires=Fri, 22-Nov-19 09:34:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+15 verbose headers   'cf-cache-status': 'MISS',
+15 verbose headers   'cache-control': 'max-age=300',
+15 verbose headers   'cf-ray': '47da66e5da706023-MRS',
+15 verbose headers   etag: 'W/"4d65ce47f7619557666ee5743ebba1fd"',
+15 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+15 verbose headers   'last-modified': 'Sun, 27 May 2018 21:44:29 GMT',
+15 verbose headers   vary: 'accept-encoding, accept',
+15 verbose headers   server: 'cloudflare',
+15 verbose headers   'content-encoding': 'gzip' }
+16 silly get cb [ 200,
+16 silly get   { date: 'Thu, 22 Nov 2018 09:34:44 GMT',
+16 silly get     'content-type': 'application/json; charset=UTF-8',
+16 silly get     'transfer-encoding': 'chunked',
+16 silly get     connection: 'keep-alive',
+16 silly get     'set-cookie': [ '__cfduid=dd9cf3e3859f9ac3caee25b6fc6fd97191542879284; expires=Fri, 22-Nov-19 09:34:44 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+16 silly get     'cf-cache-status': 'MISS',
+16 silly get     'cache-control': 'max-age=300',
+16 silly get     'cf-ray': '47da66e5da706023-MRS',
+16 silly get     etag: 'W/"4d65ce47f7619557666ee5743ebba1fd"',
+16 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+16 silly get     'last-modified': 'Sun, 27 May 2018 21:44:29 GMT',
+16 silly get     vary: 'accept-encoding, accept',
+16 silly get     server: 'cloudflare',
+16 silly get     'content-encoding': 'gzip' } ]
+17 verbose get saving webpack-4-quickstart to C:\Users\hp\AppData\Roaming\npm-cache\registry.npmjs.org\webpack-4-quickstart\.cache.json
+18 verbose correctMkdir C:\Users\hp\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+19 verbose stack Error: Unpublished by hespoz on 2018-04-09T14:57:37.487Z
+19 verbose stack     at C:\Users\hp\AppData\Roaming\nvm\v6.9.1\node_modules\npm\lib\view.js:115:14
+19 verbose stack     at saved (C:\Users\hp\AppData\Roaming\nvm\v6.9.1\node_modules\npm\lib\cache\caching-client.js:174:7)
+19 verbose stack     at C:\Users\hp\AppData\Roaming\nvm\v6.9.1\node_modules\npm\node_modules\graceful-fs\polyfills.js:233:18
+19 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+20 verbose statusCode 404
+21 verbose pkgid webpack-4-quickstart
+22 verbose cwd G:\Project\yjsg kickstart\reactreduxsagawebpackkickstart
+23 error Windows_NT 10.0.17134
+24 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "v"
+25 error node v6.9.1
+26 error npm  v3.10.8
+27 error code E404
+28 error 404 Unpublished by hespoz on 2018-04-09T14:57:37.487Z
+29 error 404
+30 error 404 'webpack-4-quickstart' is not in the npm registry.
+31 error 404 You should bug the author to publish it (or use the name yourself!)
+32 error 404 Note that you can also install from a
+33 error 404 tarball, folder, http url, or git url.
+34 verbose exit [ 1, true ]
