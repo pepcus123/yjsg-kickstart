@@ -25,10 +25,11 @@ const store = createStore(rootReducer, applyMiddleware(...middleware));
 
 addLocaleData([...en, ...hi]);
 
-const language =
+/*const language =
   (navigator.languages && navigator.languages[0]) ||
   navigator.language ||
-  navigator.userLanguage;
+  navigator.userLanguage;*/
+const language = 'hi';
 
 const messages =
   localeData[language] ||
@@ -40,7 +41,7 @@ function* sagaWatchers() {
   ]);
 }
 sagaMiddleware.run(sagaWatchers);
-
+console.log("language",language);
 ReactDOM.render(
   <IntlProvider locale={language} messages={messages}>
     <Provider store={store}>
